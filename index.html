@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nestlie Dela Peña | Personal Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,600;0,6..72,700;1,6..72,500&display=swap"
+          rel="stylesheet">
+    <script>try{if(sessionStorage.getItem("nd-intro")||matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("intro-skip")}catch(e){}</script>
+  </head>
+  <body>
+    <div id="intro" role="dialog" aria-label="Welcome">
+      <div class="intro-box">
+        <div class="intro-logo">ND<sup>✦</sup></div>
+        <div class="intro-name"><span style="animation-delay:0.55s">N</span><span style="animation-delay:0.60s">e</span><span style="animation-delay:0.65s">s</span><span style="animation-delay:0.70s">t</span><span style="animation-delay:0.75s">l</span><span style="animation-delay:0.80s">i</span><span style="animation-delay:0.85s">e</span><span style="animation-delay:0.90s">&nbsp;</span><span style="animation-delay:0.95s">D</span><span style="animation-delay:1.00s">e</span><span style="animation-delay:1.05s">l</span><span style="animation-delay:1.10s">a</span><span style="animation-delay:1.15s">&nbsp;</span><span style="animation-delay:1.20s">P</span><span style="animation-delay:1.25s">e</span><span style="animation-delay:1.30s">ñ</span><span style="animation-delay:1.35s">a</span></div>
+        <div class="intro-bar">
+          <i></i>
+        </div>
+        <button type="button" class="intro-skip">Skip ›</button>
+      </div>
+    </div>
+    <div class="site" id="top">
+      <div class="wrap">
+        <nav class="nav" aria-label="Main navigation">
+          <a class="brand"
+             href="#top"><span class="brand-mark">ND<sup>✦</sup></span><span>Nestlie Dela Peña</span></a>
+          <div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#service">Service</a><a href="#journey">My Journey</a><a href="#contact">Contact</a></div>
+          <div class="nav-actions">
+            <span class="sun" aria-hidden="true">☀</span><button class="switch"
+        id="themeBtn"
+        role="switch"
+        aria-checked="false"
+        aria-label="Toggle dark mode">
+              <i></i>
+            </button>
+          </div>
+        </nav>
+        <header class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow">BSIT STUDENT · CHIEF REPRESENTATIVE</div>
+            <h1>
+              <span style="font-weight:500">Hi, I’m</span>
+              <br>
+              Nestlie <span class="gradient">Dela Peña.</span>
+            </h1>
+            <p>I’m a curious IT student who enjoys turning ideas into useful, thoughtful digital experiences. I’m learning, experimenting, and building one project at a time.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#about">Explore my world <span>↓</span></a><button class="btn btn-ghost" id="funBtn">A little surprise ✦</button>
+            </div>
+            <div class="micro">Currently exploring: <strong id="typing" style="color:var(--text)">web development</strong><span style="color:var(--accent2)">_</span></div>
+          </div>
+          <div class="visual">
+            <img class="hero-photo"
+                 src="./img/nestlie-portrait.webp"
+                 alt="Portrait of Nestlie Dela Peña"
+                 width="670"
+                 height="612">
+          </div>
+        </header>
+        <div class="stats reveal">
+          <div class="stat">
+            <i class="ico">🎓</i>
+            <div><b>BSIT</b><span>My degree · University of Cebu</span></div>
+          </div>
+          <div class="stat">
+            <i class="ico">💡</i>
+            <div><b>Chief Representative</b><span>My role · Student Affairs Office</span></div>
+          </div>
+          <div class="stat">
+            <i class="ico">↗</i>
+            <div><b>In progress ↗</b><span>Becoming a better developer</span></div>
+          </div>
+        </div>
+        <section class="section reveal" id="leadership">
+          <div class="lead-head">
+            <span class="pill">✦ LEADERSHIP ✦</span>
+            <h2>Leadership <span class="gradient">Awards</span></h2>
+          </div>
+          <div class="lead-grid">
+            <figure class="photo-card lead-photo">
+              <img src="./img/spark-leadership-awards.jpg"
+                   alt="Student leaders holding certificates on stage at the SPARK Leadership Awards, University of Cebu">
+              <figcaption>SPARK Leadership Awards · University of Cebu (photo: Lakandiwa)</figcaption>
+            </figure>
+            <article class="panel lead-card">
+              <h3>Chief Representative</h3>
+              <p>It is an honor to be recognized as the Chief Representative, a role I accept with gratitude and a deeper commitment to serve, support, and create more opportunities for my fellow students.</p>
+              <div class="divider">✦</div>
+              <p class="quote">Serving the student community is not just a title, but a responsibility.</p>
+            </article>
+          </div>
+        </section>
+        <section class="section reveal" id="about">
+          <div class="section-head">
+            <div>
+              <div class="kicker">01 / A little about me</div>
+              <h2>More than just a screen name.</h2>
+            </div>
+            <p>Every developer starts with questions. I’m here for the process of asking better ones and finding creative ways to answer them.</p>
+          </div>
+          <div class="about-grid">
+            <article class="panel">
+              <h3>👋 The person behind the pixels</h3>
+              <p>I’m Nestlie, a Bachelor of Science in Information Technology student at the University of Cebu Main Campus. I like learning how technology works and how good design can make it easier for people to use.</p>
+              <div class="fact-list">
+                <div class="fact"><small>Based in</small><b>Cebu, Philippines 🇵🇭</b></div>
+                <div class="fact"><small>My focus</small><b>Software & web development</b></div>
+                <div class="fact"><small>My mindset</small><b>Learn · Try · Improve</b></div>
+                <div class="fact"><small>Languages</small><b>English · Filipino · Cebuano</b></div>
+              </div>
+            </article>
+            <article class="panel">
+              <h3>💡 What matters to me</h3>
+              <p>I value creativity, consistency, teamwork, and staying open to feedback. I believe a good project is not only functional—it should feel clear, welcoming, and easy to use.</p>
+              <div style="margin-top:22px;
+                          padding:16px;
+                          border-radius:14px;
+                          background:rgba(72,224,193,.07);
+                          border:1px solid rgba(72,224,193,.18)">
+                <div style="font-size:11px;
+                            color:var(--accent2);
+                            font-weight:800;
+                            letter-spacing:.12em">MY PERSONAL MOTTO</div>
+                <div style="font-size:20px;
+                            font-weight:800;
+                            letter-spacing:-.04em;
+                            margin-top:7px">“Stay curious. Build with purpose.”</div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="section reveal" id="skills">
+          <div class="section-head">
+            <div>
+              <div class="kicker">02 / My toolkit</div>
+              <h2>Skills I'm growing.</h2>
+            </div>
+            <p>These are the technologies I’ve worked with or am currently learning. The goal is progress, not pretending to know everything.</p>
+          </div>
+          <div class="skills-grid">
+            <div class="skill">
+              <div class="emoji">🌐</div>
+              <b>HTML & CSS</b><span>Web structure and styling</span>
+              <div class="skillbar">
+                <i style="--level:25%"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="emoji">⚡</div>
+              <b>JavaScript</b><span>Interactive web experiences</span>
+              <div class="skillbar">
+                <i style="--level:25%"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="emoji">☕</div>
+              <b>Java</b><span>OOP and programming logic</span>
+              <div class="skillbar">
+                <i style="--level:23%"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="emoji">🧩</div>
+              <b>C# / C++ / C</b><span>Building problem-solving basics</span>
+              <div class="skillbar">
+                <i style="--level:20%"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="emoji">🐍</div>
+              <b>Python</b><span>Currently learning</span>
+              <div class="skillbar">
+                <i style="--level:28%"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="emoji">🗃️</div>
+              <b>Databases</b><span>SQL and data organization</span>
+              <div class="skillbar">
+                <i style="--level:14%"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="emoji">🎨</div>
+              <b>UI / UX thinking</b><span>Clarity, flow, accessibility</span>
+              <div class="skillbar">
+                <i style="--level:10%"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="emoji">🔍</div>
+              <b>Debugging</b><span>Investigate, test, repeat</span>
+              <div class="skillbar">
+                <i style="--level:20%"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section reveal" id="projects">
+          <div class="section-head">
+            <div>
+              <div class="kicker">03 / Selected projects</div>
+              <h2>Things I’ve been planning to build.</h2>
+            </div>
+            <p>A few projects from mhy class that inspires me to create and build this for future project. Open a card to see more.</p>
+          </div>
+          <div class="proj-grid">
+            <article class="panel proj">
+              <div class="proj-top"><span class="proj-ico">🗂️</span><span class="proj-badge">CAPSTONE</span></div>
+              <h3>SAO-SCG Organization Management Information System</h3>
+              <p>My BSIT capstone project: a web-based information system for the Student Affairs Office Student Core Group.</p>
+              <div class="chips-row"><span>React</span><span>Laravel</span></div>
+              <div class="proj-more">
+                <ul>
+                  <li>Built with a React front end and a Laravel back end</li>
+                  <li>Made for the SAO Student Core Group of the University of Cebu</li>
+                  <li>Focused on keeping organization work clear and easy to follow</li>
+                </ul>
+              </div>
+              <button class="btn btn-ghost proj-toggle"
+                      type="button"
+                      aria-expanded="false">Details <i>+</i></button>
+            </article>
+            <article class="panel proj">
+              <div class="proj-top"><span class="proj-ico">🐍</span><span class="proj-badge">CLASS PROJECT</span></div>
+              <h3>Student Records Menu</h3>
+              <p>A Python console program for managing student records, built in class while learning Python.</p>
+              <div class="chips-row"><span>Python</span><span>Console</span></div>
+              <div class="proj-more">
+                <ul>
+                  <li>Menu options: add, delete, update, search, display all, and exit</li>
+                  <li>Runs in a loop until you choose to exit</li>
+                  <li>My first step into practical Python</li>
+                </ul>
+              </div>
+              <button class="btn btn-ghost proj-toggle"
+                      type="button"
+                      aria-expanded="false">Details <i>+</i></button>
+            </article>
+            <article class="panel proj">
+              <div class="proj-top"><span class="proj-ico">🌐</span><span class="proj-badge">PERSONAL</span></div>
+              <h3>This Portfolio</h3>
+              <p>The site you’re on: interactive, themeable, and built without any frameworks.</p>
+              <div class="chips-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="proj-more">
+                <ul>
+                  <li>Light and dark mode, plus accent colors</li>
+                  <li>A command terminal, filters, and a kindness wall</li>
+                  <li>An intro screen, awards spotlight, and scroll-drawn timeline</li>
+                </ul>
+              </div>
+              <button class="btn btn-ghost proj-toggle"
+                      type="button"
+                      aria-expanded="false">Details <i>+</i></button>
+            </article>
+          </div>
+        </section>
+        <section class="section reveal" id="experience">
+          <div class="section-head">
+            <div>
+              <div class="kicker">04 / Experience &amp; education</div>
+              <h2>Where I’ve learned and served.</h2>
+            </div>
+            <p>Work, service, and study have each taught me something different about accuracy, people, and responsibility.</p>
+          </div>
+          <div class="exp-grid">
+            <article class="panel">
+              <h3>💼 Experience</h3>
+              <div class="timeline">
+                <div class="time-item">
+                  <div class="time-year">WORK</div>
+                  <div class="time-content">
+                    <b>Office Assistant · Real estate company</b>
+                    <p>Updated ledgers and handled client-facing tasks, building habits of accuracy, organization, and clear communication.</p>
+                  </div>
+                </div>
+                <div class="time-item">
+                  <div class="time-year">SERVICE</div>
+                  <div class="time-content">
+                    <b>Chief Representative · SAO-SCG</b>
+                    <p>Serving fellow students through the Student Affairs Office Student Core Group, supporting campus activities and student concerns.</p>
+                  </div>
+                </div>
+                <div class="time-item">
+                  <div class="time-year">STUDIES</div>
+                  <div class="time-content">
+                    <b>BSIT student · University of Cebu</b>
+                    <p>Learning software and web development, databases, and UI/UX thinking one project at a time.</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="panel">
+              <h3>🎓 Education</h3>
+              <div class="edu-card">
+                <span class="proj-ico">🏫</span>
+                <div><b>Bachelor of Science in Information Technology</b><span>University of Cebu · Main Campus</span></div>
+              </div>
+              <h3 style="margin-top:22px">✨ What I bring</h3>
+              <div class="chips-row big"><span>Accuracy</span><span>Communication</span><span>Teamwork</span><span>Organization</span><span>Leadership</span><span>Curiosity</span></div>
+            </article>
+          </div>
+        </section>
+        <section class="section reveal" id="interests">
+          <div class="section-head">
+            <div>
+              <div class="kicker">05 / Off the keyboard</div>
+              <h2>Things that spark my interest.</h2>
+            </div>
+            <p>A little peek at what keeps me inspired beyond writing code.</p>
+          </div>
+          <div class="interest-grid">
+            <article class="panel interest" data-num="01">
+              <div class="big-emoji">🖥️</div>
+              <h3>Creating digital things</h3>
+              <p>Exploring websites, useful tools, and ideas that can become real projects.</p>
+            </article>
+            <article class="panel interest" data-num="02">
+              <div class="big-emoji">🎧</div>
+              <h3>Music & reset time</h3>
+              <p>A good playlist helps me recharge, focus, and find a fresh perspective.</p>
+            </article>
+            <article class="panel interest" data-num="03">
+              <div class="big-emoji">🤝</div>
+              <h3>People & teamwork</h3>
+              <p>Learning from others, sharing ideas, and helping make group goals happen.</p>
+            </article>
+          </div>
+        </section>
+        <section class="section reveal" id="service">
+          <div class="section-head">
+            <div>
+              <div class="kicker">06 / Service & memories</div>
+              <h2>My favorite part is serving students.</h2>
+            </div>
+            <p>These photos capture moments I love—from student support and campus activities to teamwork, leadership, and community service. They remind me why showing up for students matters.</p>
+          </div>
+          <div class="gallery">
+            <figure class="photo-card">
+              <img src="./img/service-01.png"
+                   alt="Helping students review documents at a campus table"
+                   loading="lazy">
+              <figcaption>Helping students and supporting campus services</figcaption>
+            </figure>
+            <figure class="photo-card">
+              <img src="./img/service-02.png"
+                   alt="A happy moment with friends during a campus activity"
+                   loading="lazy">
+              <figcaption>Friendship and teamwork</figcaption>
+            </figure>
+            <figure class="photo-card">
+              <img src="./img/service-03.png"
+                   alt="Student leaders presenting a student discipline awareness poster"
+                   loading="lazy">
+              <figcaption>Promoting student awareness</figcaption>
+            </figure>
+            <figure class="photo-card">
+              <img src="./img/service-04.png"
+                   alt="Student leader speaking with students during an awareness activity"
+                   loading="lazy">
+              <figcaption>Engaging with students</figcaption>
+            </figure>
+            <figure class="photo-card">
+              <img src="./img/service-05.png"
+                   alt="Participating in a community environmental cleanup"
+                   loading="lazy">
+              <figcaption>Community service and environmental care</figcaption>
+            </figure>
+            <figure class="photo-card">
+              <img src="./img/service-06.png"
+                   alt="Volunteers gathered after a community cleanup"
+                   loading="lazy">
+              <figcaption>Making a difference together</figcaption>
+            </figure>
+            <figure class="photo-card">
+              <img src="./img/service-07.png"
+                   alt="University student club promotion display"
+                   loading="lazy">
+              <figcaption>Campus clubs and student life</figcaption>
+            </figure>
+            <figure class="photo-card">
+              <img src="./img/service-08.png"
+                   alt="Student affairs core group gathered for a campus event"
+                   loading="lazy">
+              <figcaption>Serving with the SAO-SCG team</figcaption>
+            </figure>
+            <figure class="photo-card">
+              <img src="./img/service-09.png"
+                   alt="Working with fellow students on paperwork"
+                   loading="lazy">
+              <figcaption>Behind the scenes of student service</figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="section reveal" id="journey">
+          <div class="section-head">
+            <div>
+              <div class="kicker">07 / The journey</div>
+              <h2>Still becoming.</h2>
+            </div>
+            <p>I’m not a finished product—and that’s the exciting part.</p>
+          </div>
+          <div class="interactive">
+            <article class="panel">
+              <h3>🧭 My learning path</h3>
+              <div class="timeline">
+                <div class="time-item">
+                  <div class="time-year">FOUNDATIONS</div>
+                  <div class="time-content">
+                    <b>Learn the logic</b>
+                    <p>Practice programming fundamentals, problem-solving, and object-oriented thinking.</p>
+                  </div>
+                </div>
+                <div class="time-item">
+                  <div class="time-year">BUILDING</div>
+                  <div class="time-content">
+                    <b>Turn lessons into projects</b>
+                    <p>Use web technologies and databases to make ideas interactive and useful.</p>
+                  </div>
+                </div>
+                <div class="time-item">
+                  <div class="time-year">NEXT UP</div>
+                  <div class="time-content">
+                    <b>Keep improving</b>
+                    <p>Explore Python, sharpen UI/UX, and build a portfolio of work I’m proud to share.</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="panel">
+              <h3>🎲 Help me choose my next mini-project</h3>
+              <p>Pick the kind of thing you’d be curious to try. This little interaction is just for fun!</p>
+              <div class="quiz-options">
+                <button class="choice" data-choice="A personal productivity dashboard">📊 Dashboard</button><button class="choice" data-choice="A playful interactive quiz">🧠 Quiz game</button><button class="choice" data-choice="A student community hub">🌱 Community hub</button>
+              </div>
+              <div class="result"
+                   id="choiceResult"
+                   aria-live="polite">Choose an idea above to reveal your project prompt.</div>
+            </article>
+          </div>
+        </section>
+        <section class="section reveal" id="ask">
+          <div class="section-head">
+            <div>
+              <div class="kicker">08 / Ask me anything</div>
+              <h2>Talk to my terminal.</h2>
+            </div>
+            <p>Type a command, tap a chip, or open a question. Try <b>help</b>, <b>idea</b> or <b>accent pink</b>. Press <b>/</b> to jump here.</p>
+          </div>
+          <div class="ask-grid">
+            <div class="term" id="term">
+              <div class="term-bar"><i></i><i></i><i></i><span>nestlie@portfolio ~ %</span></div>
+              <div class="term-body" id="termBody" aria-live="polite"></div>
+              <form class="term-in" id="termForm" autocomplete="off">
+                <span>❯</span><input id="termInput"
+       aria-label="Terminal command"
+       placeholder="type help and press Enter"
+       spellcheck="false">
+              </form>
+              <div class="term-chips">
+                <button type="button" data-cmd="help">help</button><button type="button" data-cmd="about">about</button><button type="button" data-cmd="skills">skills</button><button type="button" data-cmd="idea">idea</button><button type="button" data-cmd="theme toggle">theme toggle</button><button type="button" data-cmd="confetti">confetti</button>
+              </div>
+            </div>
+            <div class="faq">
+              <details name="faq" open>
+                <summary>What are you studying?</summary>
+                <p>I’m a Bachelor of Science in Information Technology student at the University of Cebu Main Campus, focusing on software and web development.</p>
+              </details>
+              <details name="faq">
+                <summary>What do you do in student affairs?</summary>
+                <p>I serve with the Student Affairs Office – Student Core Group (SAO-SCG), supporting and representing my fellow students and helping campus activities happen.</p>
+              </details>
+              <details name="faq">
+                <summary>What are you learning right now?</summary>
+                <p>Python, sharper UI/UX, and more web development. I like to learn by building small projects one at a time.</p>
+              </details>
+              <details name="faq">
+                <summary>What kind of projects excite you?</summary>
+                <p>Useful tools with a friendly feel: dashboards, interactive quizzes, and community hubs where students can find what they need quickly.</p>
+              </details>
+              <details name="faq">
+                <summary>How can I reach you?</summary>
+                <p>Use the message form below, email me at nestlierocaldelapena@gmail.com, or visit my Facebook page from the contact section.</p>
+              </details>
+            </div>
+          </div>
+        </section>
+        <section class="section reveal" id="kindness">
+          <div class="section-head">
+            <div>
+              <div class="kicker">09 / Kindness wall</div>
+              <h2>Leave a little kindness.</h2>
+            </div>
+            <p>Pin a short, friendly note on the board. Notes are saved on this device only, and you can remove your own anytime.</p>
+          </div>
+          <div class="kind-grid">
+            <form class="mail kind-form" id="kindForm" novalidate>
+              <label>
+                YOUR NAME (OPTIONAL)<input id="kName"
+       maxlength="24"
+       placeholder="Anonymous"
+       autocomplete="off">
+              </label>
+              <label>
+                YOUR NOTE<textarea id="kText"
+          rows="3"
+          maxlength="120"
+          placeholder="Write something kind&hellip;"></textarea>
+              </label>
+              <div class="kind-colors" role="group" aria-label="Note color">
+                NOTE COLOR
+                <button type="button"
+                        data-c="yellow"
+                        style="background:#fff3b0"
+                        aria-label="Yellow"
+                        aria-pressed="true"></button>
+                <button type="button"
+                        data-c="pink"
+                        style="background:#ffd6e7"
+                        aria-label="Pink"
+                        aria-pressed="false"></button>
+                <button type="button"
+                        data-c="blue"
+                        style="background:#cfe6ff"
+                        aria-label="Blue"
+                        aria-pressed="false"></button>
+                <button type="button"
+                        data-c="mint"
+                        style="background:#d3f5e6"
+                        aria-label="Mint"
+                        aria-pressed="false"></button>
+              </div>
+              <div class="mail-foot">
+                <span id="kCount">0 / 120</span><button class="btn btn-primary"
+        type="submit">Pin it ✦</button>
+              </div>
+              <p class="err" id="kErr" role="alert"></p>
+            </form>
+            <div class="wall" id="wall" aria-live="polite"></div>
+          </div>
+        </section>
+        <section class="section reveal" id="contact">
+          <div class="contact">
+            <div>
+              <div class="kicker">10 / Let's connect</div>
+              <h2>Have an idea? Let's make it real.</h2>
+              <p>Thanks for spending a little time getting to know me. I love serving students, working with others, and making meaningful campus memories. Feel free to connect with me!</p>
+              <div class="social-links">
+                <a class="btn btn-primary" href="mailto:nestlierocaldelapena@gmail.com">✉ Email me</a>
+                <a class="btn btn-ghost"
+                   href="https://github.com/NestlieDelaPena-UCM"
+                   target="_blank"
+                   rel="noopener noreferrer">&lt;/&gt; GitHub ↗</a>
+                <a class="btn btn-ghost"
+                   href="https://www.linkedin.com/in/nestlie-dela-pe%C3%B1a-758179413/"
+                   target="_blank"
+                   rel="noopener noreferrer">in LinkedIn ↗</a>
+                <a class="btn btn-ghost"
+                   href="https://www.facebook.com/nestliedp"
+                   target="_blank"
+                   rel="noopener noreferrer">f Visit my Facebook ↗</a>
+              </div>
+              <form class="mail" id="mailForm" novalidate>
+                <div class="row">
+                  <label>
+                    YOUR NAME<input id="mName"
+       maxlength="60"
+       autocomplete="name"
+       placeholder="Juan Dela Cruz"></label><label>YOUR EMAIL<input id="mEmail"
+       type="email"
+       autocomplete="email"
+       placeholder="you@example.com">
+                    </label>
+                  </div>
+                  <label>
+                    MESSAGE<textarea id="mMsg"
+          rows="4"
+          maxlength="500"
+          placeholder="Tell me about your idea…"></textarea>
+                  </label>
+                  <div class="mail-foot">
+                    <span id="mCount">0 / 500</span><button class="btn btn-primary"
+        type="submit">Send via email ✉</button>
+                  </div>
+                  <p class="err" id="mErr" role="alert"></p>
+                </form>
+              </div>
+              <button class="btn btn-ghost" id="helloBtn">Leave a little kindness ✦</button>
+            </div>
+          </section>
+          <footer class="footer">
+            <div>© <span id="year"></span> Nestlie Dela Peña · Personal portfolio</div>
+            <span>Designed with curiosity, care, and a little bit of code.</span>
+          </footer>
+        </div>
+      </div>
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      <script src="./js/script.js"></script>
+    </body>
+  </html>
